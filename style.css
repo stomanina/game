@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.play{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    
+    z-index: 100;
+    border-radius: 50%;
+    background-color: blue;
+    color: #fff;
+    text-align: center;    
+    font-size: 70px;
+    
+}
+.downconer{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-left: 385px;
+    margin-top: 2510px;
+
+}
+.categoryes{
+    display: flex;
+    flex-direction: row;
+    padding-left: 25px;
+}
+.leftconer{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    margin-top: 360px;
+}
+.rightconer{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2880px;
+    margin-top: 360px;
+}
+.random{
+    background-color: aqua;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1500px;
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+    margin-top: 560px;
+}
+.buttonR {
+    font-size: 64px;
+    width: 500px;
+    height: 500px;
+}
+.box{
+    font-size: 150px;
+    font-weight: bold;
+}
+
+.img{
+    max-width: 350px;
+    max-height: 350px;
+       
+}
+.balls1,
+.balls2,
+.balls3{
+    display: block;
+    width: auto;
+    height: auto;
+    background-color: #879;
+    margin-bottom: 30px;
+    margin-left: 180px;
+    border-radius: 30%;
+    border-style: dotted;
+}
+.button10,
+.button20,
+.button30,
+.button40,
+.button50{
+    width: auto;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 5px;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.popupBlock{
+    margin-top: 150px;
+    margin-left: 450px;
+    position: absolute;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 20px -10px rgb(80, 125, 170);
+    visibility: hidden;
+    opacity: 0;
+}
+.popupText{
+    max-width: 500px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+}
+.buttonS{
+    display: flex;
+    flex-direction: row;
+}
+.popup_button,
+.music{
+    display: block;
+    margin: 10px;
+    width: 120px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 30%;
+    border-style: dotted;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img{
+    width: 500px;
+}
